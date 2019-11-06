@@ -24,6 +24,13 @@ class BuyCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: true)
     }
     
+    func start(with productNumber: Int) {
+        let vc = BuyViewController.instantiate()
+        vc.selectedProduct = productNumber
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
 //    func didFinishBuying() {
 //        parentCoordinator?.childDidFinish(self)
 //    }

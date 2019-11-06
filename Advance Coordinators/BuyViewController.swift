@@ -11,11 +11,12 @@ import UIKit
 class BuyViewController: UIViewController, Storyboarded {
     
     weak var coordinator: BuyCoordinator?
+    var selectedProduct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Buy"
+        self.title = "Buy Product # \(selectedProduct)"
     }
     
 //    override func viewDidDisappear(_ animated: Bool) {

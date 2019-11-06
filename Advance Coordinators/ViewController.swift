@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboarded  {
+    
+    @IBOutlet private weak var productSegments: UISegmentedControl!
 
    weak var coordinator: MainCoordinator?
 
@@ -27,7 +29,7 @@ class ViewController: UIViewController, Storyboarded  {
     
     @IBAction private func didTapBuySubscription(_ sender: UIButton) {
         print("didTapBuySubscription.")
-        coordinator?.buySubscription()
+        coordinator?.buySubscription(to: productSegments.selectedSegmentIndex + 1)
     }
 
 
