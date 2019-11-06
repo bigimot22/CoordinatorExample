@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainCoordinator: Coordinator {
+class MainCoordinator: NSObject, Coordinator, UINavigationControllerDelegate {
     var childCoordinators = [Coordinator]()
     
     var navigationController: UINavigationController
@@ -18,6 +18,7 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
+        navigationController.delegate = self
         let vc = ViewController.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
@@ -45,7 +46,14 @@ class MainCoordinator: Coordinator {
         }
     }
     
-    
+    func navigationController(_ navigationController: UINavigationController, didShow viewcontroller: UIViewController, animated: Bool) {
+        guard let fromViewController = navigationController.transitionCoordinator?.viewController(forKey: .from) else { return }
+        if navigationController.viewControllers.contains(fromViewController) { return }
+        
+        if let buyViewController = fromViewController as? BuyViewController {
+            childDidFinish(buyViewController.coordinator)
+        }
+    }
     
     
 }

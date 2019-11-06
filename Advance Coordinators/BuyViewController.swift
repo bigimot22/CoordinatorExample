@@ -18,10 +18,10 @@ class BuyViewController: UIViewController, Storyboarded {
         self.title = "Buy"
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(true)
-        coordinator?.didFinishBuying()
-    }
+//    override func viewDidDisappear(_ animated: Bool) {
+//        super.viewDidDisappear(true)
+//        coordinator?.didFinishBuying()
+//    }
     
 
    
