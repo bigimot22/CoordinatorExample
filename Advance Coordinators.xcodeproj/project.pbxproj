@@ -19,6 +19,7 @@
 		691235D02372920100E09F03 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235CE2372920100E09F03 /* BuyViewController.swift */; };
 		691235D12372920100E09F03 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235CF2372920100E09F03 /* CreateViewController.swift */; };
 		691235D323729BA000E09F03 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D223729BA000E09F03 /* BuyCoordinator.swift */; };
+		691235D5237430F700E09F03 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D4237430F600E09F03 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		691235CE2372920100E09F03 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		691235CF2372920100E09F03 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		691235D223729BA000E09F03 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
+		691235D4237430F600E09F03 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				691235CA2372918300E09F03 /* MainCoordinator.swift */,
 				691235D223729BA000E09F03 /* BuyCoordinator.swift */,
 				691235CC237291AE00E09F03 /* Storyboarded.swift */,
+				691235D4237430F600E09F03 /* MainTabBarController.swift */,
 				691235B82372900100E09F03 /* ViewController.swift */,
 				691235CF2372920100E09F03 /* CreateViewController.swift */,
 				691235CE2372920100E09F03 /* BuyViewController.swift */,
@@ -158,6 +161,7 @@
 			files = (
 				691235D323729BA000E09F03 /* BuyCoordinator.swift in Sources */,
 				691235D12372920100E09F03 /* CreateViewController.swift in Sources */,
+				691235D5237430F700E09F03 /* MainTabBarController.swift in Sources */,
 				691235C92372911200E09F03 /* Coordinator.swift in Sources */,
 				691235B92372900100E09F03 /* ViewController.swift in Sources */,
 				691235B52372900100E09F03 /* AppDelegate.swift in Sources */,
