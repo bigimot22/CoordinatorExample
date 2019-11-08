@@ -22,6 +22,8 @@
 		691235D5237430F700E09F03 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D4237430F600E09F03 /* MainTabBarController.swift */; };
 		691235D823753CFA00E09F03 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D723753CFA00E09F03 /* ProfileCoordinator.swift */; };
 		691235DA23753E0000E09F03 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D923753E0000E09F03 /* ProfileVC.swift */; };
+		691235DD23754B0E00E09F03 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235DC23754B0E00E09F03 /* SettingsCoordinator.swift */; };
+		691235DF23754B8400E09F03 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235DE23754B8400E09F03 /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		691235D4237430F600E09F03 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		691235D723753CFA00E09F03 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		691235D923753E0000E09F03 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		691235DC23754B0E00E09F03 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		691235DE23754B8400E09F03 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			children = (
 				691235D723753CFA00E09F03 /* ProfileCoordinator.swift */,
 				691235D923753E0000E09F03 /* ProfileVC.swift */,
+				691235DC23754B0E00E09F03 /* SettingsCoordinator.swift */,
+				691235DE23754B8400E09F03 /* SettingsVC.swift */,
 			);
 			path = "Profile Flow";
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			files = (
 				691235DA23753E0000E09F03 /* ProfileVC.swift in Sources */,
 				691235D823753CFA00E09F03 /* ProfileCoordinator.swift in Sources */,
+				691235DD23754B0E00E09F03 /* SettingsCoordinator.swift in Sources */,
 				691235D323729BA000E09F03 /* BuyCoordinator.swift in Sources */,
 				691235D12372920100E09F03 /* CreateViewController.swift in Sources */,
 				691235D5237430F700E09F03 /* MainTabBarController.swift in Sources */,
@@ -193,6 +200,7 @@
 				691235B72372900100E09F03 /* SceneDelegate.swift in Sources */,
 				691235D02372920100E09F03 /* BuyViewController.swift in Sources */,
 				691235CD237291AE00E09F03 /* Storyboarded.swift in Sources */,
+				691235DF23754B8400E09F03 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

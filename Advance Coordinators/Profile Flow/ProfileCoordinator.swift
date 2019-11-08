@@ -26,12 +26,12 @@ class ProfileCoordinator: NSObject, Coordinator, UINavigationControllerDelegate 
         navigationController.pushViewController(vc, animated: false)
     }
     
-//    func buySubscription(to productType: Int) {
-//        let child = BuyCoordinator(navController: navigationController)
-//        child.parentCoordinator = self
-//        childCoordinators.append(child)
-//        child.start(with: productType)
-//    }
+    func editSettings() {
+        let child = SettingsCoordinator(navController: navigationController)
+        child.parentCoordinator = self
+        childCoordinators.append(child)
+        child.start()
+    }
     
     
 //    func createAccount() {

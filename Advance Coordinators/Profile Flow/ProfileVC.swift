@@ -18,6 +18,14 @@ class ProfileVC: UIViewController , Storyboarded {
         self.title = "Profile"
     }
     
+    
+    
+    
+    @IBAction private func didTapCreateEditSettings(_ sender: UIButton) {
+        print("didTapCreateAccount.")
+        coordinator?.editSettings()
+    }
+    
 
    
 

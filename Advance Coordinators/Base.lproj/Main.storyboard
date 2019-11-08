@@ -78,13 +78,49 @@
                     <view key="view" contentMode="scaleToFill" id="tHq-dD-SyJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xbY-M9-ng7">
+                                <rect key="frame" x="20" y="64" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKD-Hn-xVY">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.93781250000000005" green="0.93781250000000005" blue="0.93781250000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Settings"/>
+                                        <connections>
+                                            <action selector="didTapCreateEditSettings:" destination="iK9-VR-hCX" eventType="touchUpInside" id="NEw-f1-oxW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aFO-Pj-fBh" firstAttribute="trailing" secondItem="xbY-M9-ng7" secondAttribute="trailing" constant="20" id="FOC-oI-TIF"/>
+                            <constraint firstItem="xbY-M9-ng7" firstAttribute="top" secondItem="aFO-Pj-fBh" secondAttribute="top" constant="20" id="iLl-PB-ydo"/>
+                            <constraint firstItem="xbY-M9-ng7" firstAttribute="leading" secondItem="aFO-Pj-fBh" secondAttribute="leading" constant="20" id="mRq-lT-YBh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aFO-Pj-fBh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDn-sT-W2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="914"/>
+        </scene>
+        <!--SettingsVC-->
+        <scene sceneID="YH6-Tm-OCF">
+            <objects>
+                <viewController storyboardIdentifier="SettingsVC" id="tcY-Oa-Bnr" customClass="SettingsVC" customModule="Advance_Coordinators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pKU-dY-CxC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="T0Y-1J-TjD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYh-Ad-K7b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="913"/>
         </scene>
         <!--Buy View Controller-->
         <scene sceneID="8Os-Xs-sjv">

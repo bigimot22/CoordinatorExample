@@ -11,9 +11,7 @@ import UIKit
 protocol Storyboarded {
     
     static func instantiate() -> Self
-    
-    
-    
+ 
 }
 
 
