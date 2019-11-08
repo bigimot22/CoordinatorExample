@@ -71,6 +71,21 @@
             </objects>
             <point key="canvasLocation" x="139" y="108"/>
         </scene>
+        <!--ProfileVC-->
+        <scene sceneID="dCV-dZ-sqZ">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="iK9-VR-hCX" customClass="ProfileVC" customModule="Advance_Coordinators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHq-dD-SyJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aFO-Pj-fBh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BDn-sT-W2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="914"/>
+        </scene>
         <!--Buy View Controller-->
         <scene sceneID="8Os-Xs-sjv">
             <objects>

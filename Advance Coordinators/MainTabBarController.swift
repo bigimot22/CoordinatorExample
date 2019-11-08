@@ -11,12 +11,14 @@ import UIKit
 class MainTabBarController: UITabBarController {
     
     let main = MainCoordinator(navigationController: UINavigationController())
+    let profile = ProfileCoordinator(navigationController: UINavigationController())
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         main.start()
-        viewControllers = [main.navigationController]
+        profile.start()
+        viewControllers = [main.navigationController, profile.navigationController]
         
     }
     
