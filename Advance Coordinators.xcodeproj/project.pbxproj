@@ -24,7 +24,19 @@
 		691235DA23753E0000E09F03 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235D923753E0000E09F03 /* ProfileVC.swift */; };
 		691235DD23754B0E00E09F03 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235DC23754B0E00E09F03 /* SettingsCoordinator.swift */; };
 		691235DF23754B8400E09F03 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691235DE23754B8400E09F03 /* SettingsVC.swift */; };
+		69B61A772376A14800E4BF11 /* Advance_CoordinatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61A762376A14800E4BF11 /* Advance_CoordinatorsUITests.swift */; };
+		69B61A7F2376BDF300E4BF11 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B61A7E2376BDF200E4BF11 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B61A792376A14800E4BF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691235A92372900100E09F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691235B02372900100E09F03;
+			remoteInfo = "Advance Coordinators";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		691235B12372900100E09F03 /* Advance Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advance Coordinators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,10 +58,21 @@
 		691235D923753E0000E09F03 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		691235DC23754B0E00E09F03 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
 		691235DE23754B8400E09F03 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		69B61A742376A14800E4BF11 /* Advance CoordinatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advance CoordinatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B61A762376A14800E4BF11 /* Advance_CoordinatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advance_CoordinatorsUITests.swift; sourceTree = "<group>"; };
+		69B61A782376A14800E4BF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B61A7E2376BDF200E4BF11 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		691235AE2372900100E09F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B61A712376A14800E4BF11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				691235B32372900100E09F03 /* Advance Coordinators */,
+				69B61A752376A14800E4BF11 /* Advance CoordinatorsUITests */,
 				691235B22372900100E09F03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				691235B12372900100E09F03 /* Advance Coordinators.app */,
+				69B61A742376A14800E4BF11 /* Advance CoordinatorsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +141,16 @@
 			path = "Main Flow";
 			sourceTree = "<group>";
 		};
+		69B61A752376A14800E4BF11 /* Advance CoordinatorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B61A762376A14800E4BF11 /* Advance_CoordinatorsUITests.swift */,
+				69B61A7E2376BDF200E4BF11 /* SnapshotHelper.swift */,
+				69B61A782376A14800E4BF11 /* Info.plist */,
+			);
+			path = "Advance CoordinatorsUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +171,24 @@
 			productReference = 691235B12372900100E09F03 /* Advance Coordinators.app */;
 			productType = "com.apple.product-type.application";
 		};
+		69B61A732376A14800E4BF11 /* Advance CoordinatorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B61A7D2376A14800E4BF11 /* Build configuration list for PBXNativeTarget "Advance CoordinatorsUITests" */;
+			buildPhases = (
+				69B61A702376A14800E4BF11 /* Sources */,
+				69B61A712376A14800E4BF11 /* Frameworks */,
+				69B61A722376A14800E4BF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B61A7A2376A14800E4BF11 /* PBXTargetDependency */,
+			);
+			name = "Advance CoordinatorsUITests";
+			productName = "Advance CoordinatorsUITests";
+			productReference = 69B61A742376A14800E4BF11 /* Advance CoordinatorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +201,10 @@
 				TargetAttributes = {
 					691235B02372900100E09F03 = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					69B61A732376A14800E4BF11 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 691235B02372900100E09F03;
 					};
 				};
 			};
@@ -165,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				691235B02372900100E09F03 /* Advance Coordinators */,
+				69B61A732376A14800E4BF11 /* Advance CoordinatorsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +235,13 @@
 				691235C12372900700E09F03 /* LaunchScreen.storyboard in Resources */,
 				691235BE2372900700E09F03 /* Assets.xcassets in Resources */,
 				691235BC2372900100E09F03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B61A722376A14800E4BF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +269,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69B61A702376A14800E4BF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B61A772376A14800E4BF11 /* Advance_CoordinatorsUITests.swift in Sources */,
+				69B61A7F2376BDF300E4BF11 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B61A7A2376A14800E4BF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691235B02372900100E09F03 /* Advance Coordinators */;
+			targetProxy = 69B61A792376A14800E4BF11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		691235BA2372900100E09F03 /* Main.storyboard */ = {
@@ -376,6 +458,46 @@
 			};
 			name = Release;
 		};
+		69B61A7B2376A14800E4BF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V3MJH288H;
+				INFOPLIST_FILE = "Advance CoordinatorsUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esmoscu.Advance-CoordinatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Advance Coordinators";
+			};
+			name = Debug;
+		};
+		69B61A7C2376A14800E4BF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V3MJH288H;
+				INFOPLIST_FILE = "Advance CoordinatorsUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esmoscu.Advance-CoordinatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Advance Coordinators";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -393,6 +515,15 @@
 			buildConfigurations = (
 				691235C62372900700E09F03 /* Debug */,
 				691235C72372900700E09F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B61A7D2376A14800E4BF11 /* Build configuration list for PBXNativeTarget "Advance CoordinatorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B61A7B2376A14800E4BF11 /* Debug */,
+				69B61A7C2376A14800E4BF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

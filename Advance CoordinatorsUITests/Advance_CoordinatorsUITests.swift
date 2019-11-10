@@ -23,13 +23,30 @@ class Advance_CoordinatorsUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    
+
     func testExample() {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
+        setupSnapshot(app)
         app.launch()
+        
+        snapshot("0Launch")
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        let app = XCUIApplication()
+        app/*@START_MENU_TOKEN@*/.buttons["Product 2"]/*[[".segmentedControls.buttons[\"Product 2\"]",".buttons[\"Product 2\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.buttons["Buy Subscription"].tap()
+        app.navigationBars["Buy Product # 2"].buttons["Main"].tap()
+        app.buttons["Create Account"].tap()
+        app.navigationBars["Account"].buttons["Main"].tap()
+        
+        let tabBarsQuery = app.tabBars
+        tabBarsQuery.buttons["Contacts"].tap()
+        app.buttons["Settings"].tap()
+        app.navigationBars["Settings"].buttons["Profile"].tap()
+        tabBarsQuery.buttons["Favorites"].tap()
     }
 
     func testLaunchPerformance() {
